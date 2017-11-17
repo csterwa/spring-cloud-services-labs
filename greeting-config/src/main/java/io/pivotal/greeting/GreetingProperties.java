@@ -1,8 +1,5 @@
 package io.pivotal.greeting;
 
-import org.springframework.boot.context.properties.ConfigurationProperties;
-
-@ConfigurationProperties(prefix = "greeting")
 public class GreetingProperties {
 
   private boolean displayFortune;

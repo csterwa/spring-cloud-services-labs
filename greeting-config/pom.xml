@@ -18,12 +18,6 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <java.version>1.8</java.version>
-  </properties>
-
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -58,14 +52,14 @@
       <dependency>
         <groupId>io.pivotal.spring.cloud</groupId>
         <artifactId>spring-cloud-services-dependencies</artifactId>
-        <version>1.4.1.RELEASE</version>
+        <version>1.5.0.RELEASE</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-dependencies</artifactId>
-        <version>Dalston.RELEASE</version>
+        <version>Dalston.SR1</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
