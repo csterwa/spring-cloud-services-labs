@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
 @RefreshScope
 public class Quote {
 
-  private final Logger logger = LoggerFactory.getLogger(QuoteController.class);
+  private final Logger logger = LoggerFactory.getLogger(Quote.class);
 
   @Value("${quoteServiceURL:}")
   String quoteServiceURL;
