@@ -1,5 +1,6 @@
 package io.pivotal.quote;
 
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -10,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
 @RefreshScope
 public class Quote {
 
-  private final org.slf4j.Logger logger = LoggerFactory.getLogger(QuoteController.class);
+  private final Logger logger = LoggerFactory.getLogger(QuoteController.class);
 
   @Value("${quoteServiceURL:}")
   String quoteServiceURL;
